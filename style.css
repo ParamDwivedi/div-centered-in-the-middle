@@ -1,0 +1,29 @@
+/* Ignore statements that don't have any comments, they are just for the styling not for the centering of the div and its text. */
+body {
+    margin: 0;
+    display: flex; /* Makes the body a flex container */
+    justify-content: center; /* Centers the div horizontally within the body */
+    align-items: center; /* Centers the div vertically within the body */
+    height: 100vh; /* Ensures the body takes up the full height of the viewport */
+    background-color: hsl(0, 0%, 95%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center; /* Centers the text inside the div */
+}
+
+.centered-div {
+    display: flex; /* Makes the div a flex container */
+    flex-direction: column; /* Stacks the paragraph and link vertically */
+    align-items: center; /* Centers the content horizontally within the div */
+    justify-content: center; /* Centers the content vertically within the div */
+}
+
+a {
+    color: rgb(89, 241, 0);
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+a:hover {
+    color: rgb(45, 122, 0);
+}
